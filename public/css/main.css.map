@@ -1,0 +1,1 @@
+{"version":3,"sources":["dev/styles/less/main.less","dev/styles/less/mixins/centered.less"],"names":[],"mappings":"AAGA;EACE,cAAA;ECFA,iBAAA;EACA,kBAAA","sourcesContent":["\n@import 'mixins/centered';\n\nbody {\n  max-width: 50%;\n  .centered;\n}\n","\n.centered() {\n  margin-left: auto;\n  margin-right: auto;\n}\n"]}
