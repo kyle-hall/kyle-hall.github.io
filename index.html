@@ -1,24 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>kyle-hall.github.io - My Personal Site</title>
-    <link rel="stylesheet" href="public/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="public/css/main.min.css" media="screen" title="no title" charset="utf-8">
-  </head>
-  <body ng-app="myApp">
-    <header>
-      <h1>Hello, kyle-hall.github.io</h1>
-    </header>
+---
+layout: default
+---
 
-    <main ng-controller="HomeController">
-    </main>
+<div class="home">
 
-    <footer>
+  <h1 class="page-heading">Posts</h1>
 
-    </footer>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <script src="public/js/lib/angular.min.js" charset="utf-8"></script>
-    <script src="public/js/app.min.js" charset="utf-8"></script>
-  </body>
-</html>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

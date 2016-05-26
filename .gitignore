@@ -1,7 +1,4 @@
-
-node_modules/
-dev/styles/css/
-public/css/**/*.css
-public/css/*.map
-public/js/**/*.js
-!public/js/lib/angular.min.js
+_site
+.sass-cache
+.jekyll-metadata
+node_modules
