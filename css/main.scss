@@ -21,8 +21,29 @@ main {
   }
 }
 
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 80px 0;
+}
+
 footer {
-  padding: 20px;
-  background-color: black;
-  color: white;
+  background-color: #222;
+  color: #999;
+
+  a {
+    display: block;
+  }
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.post-list li {
+  list-style: none;
 }
