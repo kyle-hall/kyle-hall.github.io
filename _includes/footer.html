@@ -1,8 +1,21 @@
-<footer>
-  <h4 class="footer-heading">{{ site.title }}</h4>
-  <p>{{ site.description }}</p>
-  <script src="/js/foundation.min.js" charset="utf-8"></script>
-  <script type="text/javascript">
-    $(document).foundation();
-  </script>
+<footer class="content">
+  <div class="wrapper">
+    <div class="row">
+      <div class="column small-12 medium-6">
+        <h4>Contact Info</h4>
+        <hr>
+        <a href="#">Github</a>
+        <a href="#">Twitter</a>
+        <a href="#">Email</a>
+      </div>
+      <div class="column small-12 medium-6">
+        <h4>Site Info</h4>
+        <p>{{site.description}}</p>
+      </div>
+    </div>
+    <script src="/js/foundation.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(document).foundation();
+    </script>
+  </div>
 </footer>
