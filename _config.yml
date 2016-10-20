@@ -3,13 +3,20 @@
 title: Kyle Hall's Blog
 email: hallkd47@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  In this blog, I'll be talking about programming, particularly in Scala,
-  and what it's like to be a developer who really doesn't feel they
-  should get to be called one.
+  Hi there, this is my programming blog. In it, I'm going to talk about my
+  experiences working on a bunch of different things, including Scala, Java,
+  Ruby, JavaScript, REST, and a lot more. I'm also going to talk about what
+  being a developer is like for me, and the pressures, stresses, joys, and
+  victories that come with that. Hopefully, someone will read a post here and
+  feel better about being a developer who doesn't know everything. I certainly
+  don't. Thanks for reading, and please visit again.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kylehallblog.com" # the base hostname & protocol for your site
-twitter_username: kylohall
+twitter_username: _halligans
 github_username:  kyle-hall
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
 markdown: kramdown
