@@ -2,33 +2,9 @@
 ---
 
 @import 'content';
-@import 'utils';
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-
-  width: 25%;
-
-  background-color: rgb(34, 60, 115);
-}
-
-.sidebar-content {
-  width: 80%;
-  max-width: 325px;
-  margin: 0 auto;
-}
-
-.content {
-  max-width: 900px;
-  width: 75%;
-  margin-left: 25%;
-  padding: 48px;
 }
