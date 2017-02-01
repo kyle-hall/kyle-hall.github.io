@@ -1,16 +1,36 @@
 
 @import 'sidebar';
+@import 'colors';
 
 .content {
   max-width: 900px;
   margin-left: 25%;
-  padding: 48px;
+
+  padding: 48px 48px 48px 24px;
 }
 
-.post-list li {
-  list-style: none;
+.post-list {
+
+  display: flex;
+
+  li {
+    list-style: none;
+    justify-content: flex-start;
+  }
+
+  a {
+    text-decoration: none;
+    color: $soft-black;
+  }
+
 }
 
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
+  color: $dark-grey;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
 }

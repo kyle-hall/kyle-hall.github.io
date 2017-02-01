@@ -1,16 +1,17 @@
 
 .sidebar {
+  width: 20%;
+
   position: fixed;
   top: 0;
   bottom: 0;
 
-  width: 20%;
-
-  background-color: rgb(34, 60, 115);
+  background-color: #5074D9;
 }
 
 .sidebar-content {
   width: 80%;
+
   max-width: 325px;
   margin: 0 auto;
 }
