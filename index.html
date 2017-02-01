@@ -4,13 +4,12 @@ layout: default
 
 {% include sidebar.html%}
 <section class="content">
-  <h2>Posts</h2>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <h3>
+        <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
+        </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <p>{{post.excerpt}}</p>
       </li>
