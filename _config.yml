@@ -17,6 +17,7 @@ github_username:  kyle-hall
 sass:
   sass_dir: _sass
   style: compressed
+exclude: [node_modules, gulpfile.js]
 
 # Build settings
 markdown: kramdown
